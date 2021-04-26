@@ -45,7 +45,7 @@
 }
 
 .hr-theme i {
-    font-size: 100px;
+    font-size: 3em;
 }
 
 .clearfix {
@@ -69,7 +69,7 @@ form label {
 }
 
 #btn {
-    font-size: 45px;
+    font-size: 16px;
     border: 2px solid white;
     background-color: #59bd9c;
     color: white;
@@ -133,12 +133,10 @@ nav {
 
 .content h1 {
     text-align: center;
-    font-size: 110px;
 }
 
 .even h1 {
     text-align: center;
-    font-size: 120px;
     padding: 35px 0 0px 0px;
 }
 
@@ -191,11 +189,11 @@ input[type="checkbox"] {
 }
 
 .odd .hr-line {
-    border-bottom: 10px solid white;
+    border-bottom: 8px solid white;
 }
 
 .odd p {
-    font-size: 60px;
+    font-size: 16px;
     color: white;
     text-align: center;
     padding: 0px 0px 100px 0px;
@@ -213,24 +211,24 @@ input[type="checkbox"] {
 }
 
 .even .hr-line {
-    border-bottom: 1vw solid #2b3e50;
+    border-bottom: 8px solid #2b3e50;
 }
 
 .hr-theme {
     display: flex;
-    margin-left: 13%;
+    margin-left: 0%;
     margin-right: auto;
 }
 
 .hr-line {
-    width: 29vw;
+    width: 44vw;
     position: relative;
-    margin: 3vw;
+    margin: 2vw;
 }
 
 .hr-icon {
     position: relative;
-    top: 3px;
+    top: 10px;
 }
 
 .wrap {
@@ -240,7 +238,7 @@ input[type="checkbox"] {
 
 .wrap div {
     width: 30%;
-    font-size: 30px;
+    font-size: 16px;
     color: white;
     /* margin: 0 auto; */
     padding: 30px 68px 17px 75px;
@@ -299,7 +297,7 @@ textarea {
     padding: 30px 40px;
     border: none;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 15px;
 }
 
@@ -314,7 +312,6 @@ nav .menu-btn span {
 }
 
 .foolabels h3 {
-    font: size 20px;
     text-align: center;
 }
 
@@ -368,44 +365,20 @@ nav .menu-btn span {
 @media(max-width: 1328px) {
     .content h1 {
         text-align: center;
-        font-size: 75px;
-    }
-    .hr-theme {
-        margin-left: 13vw;
-    }
-    .hr-theme i {
-        font-size: 70px;
-    }
-    .hr-icon {
-        top: 1vw;
-    }
-    .odd .hr-line {
-        border-bottom: 1vw solid white;
-    }
-    .odd p {
-        font-size: 35px;
     }
     .wrap div {
         width: 35%;
-        font-size: 24px;
+        font-size: 14px;
     }
-    hr-line {
-        margin: 40px;
-    }
-    #btn {
-        font-size: 30px;
+    .hr-icon {
+        /* position: relative; */
+        top: 4px;
     }
 }
 
 @media (max-width: 1000px) {
     nav {
         padding: 0 40px 0 50px;
-    }
-    .hr-theme {
-        margin-left: 6vw;
-    }
-    .odd p {
-        font-size: 25px;
     }
     .center-image {
         width: 30%;
@@ -424,13 +397,16 @@ nav .menu-btn span {
     }
     .content h1 {
         text-align: center;
-        font-size: 51px;
     }
 }
 
 @media (max-width: 800px) {
     nav {
         height: 90px;
+    }
+    .hr-icon {
+        /* position: relative; */
+        top: 15px;
     }
     .odd p {
         font-size: 20px;
@@ -480,16 +456,6 @@ nav .menu-btn span {
     nav label {
         padding: 14px;
     }
-    .hr-line {
-        width: 30%;
-    }
-    .hr-theme {
-        margin-left: 0vw;
-        font-size: 58px;
-    }
-    .hr-theme i {
-        font-size: 15vw;
-    }
     .short-text {
         display: inline-block;
     }
@@ -511,17 +477,11 @@ nav .menu-btn span {
         border-radius: 15px;
         padding: 10px 14px;
     }
-    .hr-line {
-        margin: 8vw;
-    }
     nav .logo {
         margin-left: -33px;
     }
     nav label {
         margin-right: -25px;
-    }
-    .content h1 {
-        font-size: 42px;
     }
 }
 
